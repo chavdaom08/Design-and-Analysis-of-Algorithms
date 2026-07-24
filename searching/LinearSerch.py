@@ -11,6 +11,7 @@ ans = linearSerch(arr,target)
 print(ans)
 
 
+
 # Time Complexity: O(n)
 # Space Complexity: O(1)
 
