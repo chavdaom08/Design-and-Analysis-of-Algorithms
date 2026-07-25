@@ -1,23 +1,3 @@
-"""
-======================================================
-                    Bubble Sort
-
-Time Complexity:
-Best Case    : O(n)      # Already sorted (with optimization)
-Average Case : O(n²)
-Worst Case   : O(n²)
-
-Space Complexity:
-O(1)
-
-Stable:
-Yes
-
-In-Place:
-Yes
-======================================================
-"""
-
 def bubble_sort(arr):
     n = len(arr)
 
@@ -51,3 +31,10 @@ bubble_sort(arr)
 
 print("Sorted Array:", end=" ")
 print_array(arr)
+
+# Time Complexity:
+# Best Case    : O(n)      # Already sorted (with optimization)
+# Average Case : O(n²)
+# Worst Case   : O(n²)
+
+# Space Complexity: O(1)
